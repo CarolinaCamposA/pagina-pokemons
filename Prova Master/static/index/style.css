@@ -1,0 +1,106 @@
+.material-icons.icon-md { 
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 34px; 
+}
+
+
+
+.menu-icons {
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+
+
+.header-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+.header-icons {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+
+
+.img-center {
+  display: flex;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+
+
+.vertical-line {
+  border-left: 1px solid rgba(96, 96, 96, 0.5);
+  height: 40px;
+  padding: 3%;
+}
+
+
+
+.list__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+  
+
+.poke {
+  align-items: center;
+  cursor: pointer;
+  flex: 1 0 33%;
+  height: 100%;
+  width: 10px;
+  margin-right: 0px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+
+  
+.poke img {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.poke img:hover {
+  transform: scale(1.2);
+}
+
+
+
+.poke__thumbnail {
+  justify-content:space-around;
+}
+
+
+
+.title a,
+    span {
+  display: flex;
+  justify-content:space-around;
+  text-decoration: none;
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  justify-content: center;
+  margin-top: 10px;
+}
